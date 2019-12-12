@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <string id="59000">Steam</string>
+    
+    <!-- Error Messages -->
+    <string id="59212">ERROR!</string>
+    <string id="59215">Check kodi.log file for details</string>
+
+</strings>
