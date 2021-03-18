@@ -36,10 +36,10 @@ if __name__ == '__main__':
     cmd = "htpcinit-steam open"
     try:
         log('attempting to launch: %s' % cmd)
-        print cmd.encode(encoding)
+        print(cmd.encode(encoding))
         subprocess.Popen(cmd.encode(encoding), shell=True, close_fds=True)
         kodi_busy_dialog()
     except:
         log('ERROR: failed to launch: %s' % cmd)
-        print cmd.encode(encoding)
+        print(cmd.encode(encoding))
         dialog.notification(language(59212), language(59215), addon_icon, 5000)
